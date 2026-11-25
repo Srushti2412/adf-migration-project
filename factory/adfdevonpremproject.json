@@ -1,0 +1,16 @@
+{
+	"name": "adfdevonpremproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10bb8b63-e56d-45ce-8a04-04a3718743cc",
+		"tenantId": "7074d1d7-b19d-4c93-8bee-706ddfa8d116"
+	}
+}

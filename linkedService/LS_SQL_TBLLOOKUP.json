@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQL_TBLLOOKUP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-711T4CFB\\SQLEXPRESS",
+			"database": "ONPREMMIGRATION",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "Windows",
+			"userName": "LAPTOP-711T4CFB\\SRUSHTI",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhNDRhM2M4Ny01ZDI3LTRmMGQtOGYwYS03OTQwY2VlYzJkMDUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntimeSQL",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
